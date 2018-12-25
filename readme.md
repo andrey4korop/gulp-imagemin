@@ -1,20 +1,16 @@
-# gulp-imagemin [![Build Status](https://travis-ci.com/sindresorhus/gulp-imagemin.svg?branch=master)](https://travis-ci.com/sindresorhus/gulp-imagemin) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
+# gulp-imagemin-fix
 
 > Minify PNG, JPEG, GIF and SVG images with [`imagemin`](https://github.com/imagemin/imagemin)
 
 *Issues with the output should be reported on the [`imagemin` issue tracker](https://github.com/imagemin/imagemin/issues).*
+*Based on gulp-imagemin@5.0.3
 
----
-
-<p align="center"><sup>🦄 Support <a href="https://github.com/sindresorhus">my open-source work</a> by buying this awesome video course:</sup><br><b><a href="https://learnnode.com/friend/AWESOME">Learn to build apps and APIs with Node.js</a> by Wes Bos</b><br><sub>Try his free <a href="https://javascript30.com/friend/AWESOME">JavaScript 30</a> course for a taste of what to expect & check out his <a href="https://ES6.io/friend/AWESOME">ES6</a>, <a href="https://ReactForBeginners.com/friend/AWESOME">React</a>, <a href="https://SublimeTextBook.com/friend/AWESOME">Sublime</a> courses.</sub></p>
-
----
 
 
 ## Install
 
 ```
-$ npm install --save-dev gulp-imagemin
+$ npm install --save-dev gulp-imagemin-fix
 ```
 
 
@@ -24,7 +20,7 @@ $ npm install --save-dev gulp-imagemin
 
 ```js
 const gulp = require('gulp');
-const imagemin = require('gulp-imagemin');
+const imagemin = require('gulp-imagemin-fix');
 
 gulp.task('default', () =>
 	gulp.src('src/images/*')
@@ -128,4 +124,4 @@ gulp-imagemin: ✔ image2.png (saved 91 B - 0.4%)
 
 ## License
 
-MIT © [Sindre Sorhus](https://sindresorhus.com)
+MIT © [Andrey Chukhray]

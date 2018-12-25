@@ -1,6 +1,6 @@
 {
-	"name": "gulp-imagemin",
-	"version": "5.0.3",
+	"name": "gulp-imagemin-fix",
+	"version": "5.0.4",
 	"description": "Minify PNG, JPEG, GIF and SVG images, with fix 'OnError => copy original file'",
 	"license": "MIT",
 	"repository": "andrey4korop/gulp-imagemin",

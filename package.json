@@ -1,13 +1,12 @@
 {
 	"name": "gulp-imagemin",
 	"version": "5.0.3",
-	"description": "Minify PNG, JPEG, GIF and SVG images",
+	"description": "Minify PNG, JPEG, GIF and SVG images, with fix 'OnError => copy original file'",
 	"license": "MIT",
-	"repository": "sindresorhus/gulp-imagemin",
+	"repository": "andrey4korop/gulp-imagemin",
 	"author": {
-		"name": "Sindre Sorhus",
-		"email": "sindresorhus@gmail.com",
-		"url": "sindresorhus.com"
+		"name": "andrey4korop",
+		"email": "andrey4korop@gmail.com"
 	},
 	"engines": {
 		"node": ">=6"

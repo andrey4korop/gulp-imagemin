@@ -95,7 +95,9 @@ module.exports = (plugins, options) => {
 				cb(null, file);
 			})
 			.catch(error => {
-				cb(new PluginError(PLUGIN_NAME, error, {fileName: file.path}));
+				log(`${PLUGIN_NAME}:`, chalk.red('x ') + file.relative);
+				cb(null, file);
+				//cb(new PluginError(PLUGIN_NAME, error, {fileName: file.path}));
 			});
 	}, cb => {
 		const percent = totalBytes > 0 ? (totalSavedBytes / totalBytes) * 100 : 0;
